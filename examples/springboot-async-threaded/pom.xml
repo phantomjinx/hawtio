@@ -100,6 +100,18 @@
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-quartz-starter</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.apache.camel.springboot</groupId>
+      <artifactId>camel-direct-starter</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel.springboot</groupId>
+      <artifactId>camel-seda-starter</artifactId>
+    </dependency>
+
+
+
+
     <!--
       This dependency is mandatory for enabling Camel management
       via JMX / Hawtio.
@@ -108,12 +120,23 @@
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-management</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-support</artifactId>
+    </dependency>
     <!--
       To enable Camel plugin debugging feature, add this dependency.
     -->
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-debug</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.ostermiller</groupId>
+      <artifactId>utils</artifactId>
+      <version>1.07.00</version>
     </dependency>
   </dependencies>
 
